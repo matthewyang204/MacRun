@@ -14,4 +14,12 @@ Installation:
 
 5. Click on "Done" and close the window. Now you can use it.
 
-To use, just press the keyboard shortcut that you entered, or go to the Services menu in the menubar and click on MacRun.
+To use, just press the keyboard shortcut that you entered, or go to the Services menu in the menubar and click on MacRun. If you want to launch an app, you need to enter the full path to the binary executable within the .app bundle of the program in question. You need to know the full path. For GIMP (GNU Image Manipulation Tool), for example, the path is 
+```
+/Applications/GIMP.app/Contents/MacOS/gimp
+```
+If you have Wine installed, you can enter "wine64" and then add a space and then type the Windows program. For Notepad, for example, enter
+```
+wine64 notepad
+```
+You can also run other arbitrary terminal commands, such as brew, curl, mv, cp, etc.
