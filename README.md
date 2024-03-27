@@ -31,7 +31,7 @@ wine64 notepad
 ```
 You can also run other arbitrary terminal commands, such as brew, curl, mv, cp, etc.
 
-If you want to open a file, you can enter "open " followed by the path. For example, if you want to open a file called myfile.txt in the Desktop folder, enter
+If you want to open a file, you can enter "open " followed by the path to the file. For example, if you want to open a file called myfile.txt in the Desktop folder, enter
 ```
 open ~/Desktop/myfile.txt
 ```
