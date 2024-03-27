@@ -32,4 +32,4 @@ If you want to open a file, you can enter "open " followed by the path to the fi
 open ~/Desktop/myfile.txt
 ```
 
-After typing out your command, file, or program path, press Enter.
+After typing out your command, file, or program path, press Enter or click OK.
