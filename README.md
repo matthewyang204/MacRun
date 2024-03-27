@@ -10,7 +10,8 @@ Installation:
 <img width="713" alt="Screenshot 2024-03-27 at 7 15 08 AM" src="https://github.com/matthewyang204/MacRun/assets/141765903/735bdb5e-7448-4a8f-87c5-232f3640b67d">
 
 4. Click double click on the shortcut (it will say "none") at first, double click on it and press your keyboard shortcut. Afterward, it say the keyboard shortcut that you entered. In my case, it said CMD+R.
-<img width="713" alt="Screenshot 2024-03-27 at 7 15 08 AM" src="https://github.com/matthewyang204/MacRun/assets/141765903/741fd43b-7e31-437f-b1f5-9257d904aa31">
+<img width="717" alt="Screenshot 2024-03-27 at 7 15 53 AM" src="https://github.com/matthewyang204/MacRun/assets/141765903/673a2ae0-0d0b-4186-ad0c-6543c65b0e21">
+
 5. Click on "Done" and close the window. Now you can use it.
 
 To use, just press the keyboard shortcut that you entered, or go to the Services menu in the menubar and click on MacRun.
