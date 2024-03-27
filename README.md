@@ -1,6 +1,8 @@
 # MacRun
 An Automator-based solution to bring Windows Run to macOS
+<img width="421" alt="Screenshot 2024-03-27 at 3 56 39 PM" src="https://github.com/matthewyang204/MacRun/assets/141765903/a905917a-08d6-4ba5-9b03-006127e0fa5f">
 
+---------------
 Installation:
 1. Download the .zip file above and extract it. It turn into an Automator workflow.
 2. Double click on the workflow. It will ask whether to install or not. Accept.
@@ -14,14 +16,24 @@ Installation:
 
 5. Click on "Done" and close the window. Now you can use it.
 
-To use, just press the keyboard shortcut that you entered, or go to the Services menu in the menubar and click on MacRun. If you want to launch an app, type "open " and then enter the app's name. You need to know the full path. For GIMP (GNU Image Manipulation Tool), for example, the command to launch it would be
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+To use, just press the keyboard shortcut that you entered, or go to the Services menu in the menubar and click on MacRun. If you want to launch an app, type "open -a " and then enter the app's name. For GIMP (GNU Image Manipulation Tool), for example, the command to launch it would be
+```
+open -a GIMP.app
+```
+You can also use "open " and then enter the full path. For GIMP, for example, the command to launch it is
 ```
 open /Applications/GIMP.app
 ```
-If you have Wine installed, you can enter "wine64" and then add a space and then type the Windows program. For Notepad, for example, enter
+If you have a version of Wine that supports 64-bit installed, you can enter "wine64" and then add a space and then type the Windows program. For Notepad, for example, enter
 ```
 wine64 notepad
 ```
 You can also run other arbitrary terminal commands, such as brew, curl, mv, cp, etc.
 
-After typing out your command or program path, press Enter.
+If you want to open a file, you can enter "open " followed by the path. For example, if you want to open a file called myfile.txt in the Desktop folder, enter
+```
+open ~/Desktop/myfile.txt
+```
+
+After typing out your command, file, or program path, press Enter.
