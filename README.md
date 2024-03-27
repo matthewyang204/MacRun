@@ -25,11 +25,7 @@ You can also use "open " and then enter the full path. For GIMP, for example, th
 ```
 open /Applications/GIMP.app
 ```
-If you have a version of Wine that supports 64-bit installed, you can enter "wine64" and then add a space and then type the Windows program. For Notepad, for example, enter
-```
-wine64 notepad
-```
-You can also run other arbitrary terminal commands, such as brew, curl, mv, cp, etc.
+You can also run other arbitrary terminal commands, such as curl, mv, cp, etc. as long as the command in question doesn't require it to print stuff in the terminal. Curl is the exception.
 
 If you want to open a file, you can enter "open " followed by the path to the file. For example, if you want to open a file called myfile.txt in the Desktop folder, enter
 ```
