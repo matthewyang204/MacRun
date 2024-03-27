@@ -23,3 +23,4 @@ If you have Wine installed, you can enter "wine64" and then add a space and then
 wine64 notepad
 ```
 You can also run other arbitrary terminal commands, such as brew, curl, mv, cp, etc.
+After typing out your query, press Enter.
