@@ -19,7 +19,7 @@ Installation:
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 To use, just press the keyboard shortcut that you entered, or go to the Services menu in the menubar and click on MacRun. If you want to launch an app, type "open -a " and then enter the app's name. For GIMP (GNU Image Manipulation Tool), for example, the command to launch it would be
 ```
-open -a GIMP.app
+open -a GIMP
 ```
 You can also use "open " and then enter the full path. For GIMP, for example, the command to launch it is
 ```
