@@ -17,19 +17,30 @@ Installation:
 5. Click on "Done" and close the window. Now you can use it.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-To use, just press the keyboard shortcut that you entered, or go to the Services menu in the menubar and click on MacRun. If you want to launch an app, type "open -a " and then enter the app's name. For GIMP (GNU Image Manipulation Tool), for example, the command to launch it would be
+To use, just press the keyboard shortcut that you entered, or go to the Services menu in the menubar and click on MacRun. If you want to launch an app, type "-a " and then enter the app's name. For GIMP (GNU Image Manipulation Tool), for example, the command to launch it would be
 ```
-open -a GIMP
+-a GIMP
 ```
-You can also use "open " and then enter the full path. For GIMP, for example, the command to launch it is
+You can also enter the full path. For GIMP, for example, the command to launch it is
 ```
-open /Applications/GIMP.app
+/Applications/GIMP.app
 ```
 You can also run other arbitrary terminal commands, such as curl, mv, cp, etc. as long as the command in question doesn't require it to print stuff in the terminal. Curl is the exception.
 
-If you want to open a file, you can enter "open " followed by the path to the file. For example, if you want to open a file called myfile.txt in the Desktop folder, enter
+To run stuff like brew and python3, you need to enter the full path to the executable. For example, to update homebrew on Apple Silion, enter
 ```
-open ~/Desktop/myfile.txt
+/opt/Homebrew/bin/brew
+```
+For Intel Siilicon Macs, the path is /usr/local/Homebrew/bin/brew.
+
+If you have a version of wine that supports 64-bit installed, you can type "/usr/local/wine64 " and then the name of your Windows program. For notepad, for example, enter
+```
+/usr/local/wine64 notepad
+```
+
+If you want to open a file, you can enter the path to the file. For example, if you want to open a file called myfile.txt in the Desktop folder, enter
+```
+~/Desktop/myfile.txt
 ```
 
 After typing out your command, file, or program path, press Enter or click OK.
