@@ -17,17 +17,8 @@ Installation:
 5. Click on "Done" and close the window. Now you can use it.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-To use, just press the keyboard shortcut that you entered, or go to the Services menu in the menubar and click on MacRun. If you want to launch an app, type "-a " and then enter the app's name. For GIMP (GNU Image Manipulation Tool), for example, the command to launch it would be
+To use, just press the keyboard shortcut that you entered, or go to the Services menu in the menubar and click on MacRun. Type the full path to the command and then any options you want to run the command with. For example, I want to run the 64-bit version of Notepad with Wine:
 ```
--a GIMP
+/opt/homebrew/bin/wine64 notepad
 ```
-You can also enter the full path. For GIMP, for example, the command to launch it is
-```
-/Applications/GIMP.app
-```
-If you want to open a file, you can enter the path to the file. For example, if you want to open a file called myfile.txt in the Desktop folder, enter
-```
-~/Desktop/myfile.txt
-```
-
 After typing out your command, file, or program path, press Enter or click OK.
